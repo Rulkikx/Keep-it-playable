@@ -2,8 +2,8 @@
 
 body{
     background: linear-gradient(180deg,rgba(40, 0, 150, 1) 0%, rgba(61, 3, 148, 1) 51%, rgba(49, 1, 71, 1) 100%);
-    min-height: 110vh;
     font-family: "Roboto Mono", monospace;
+    background-size: auto 110   vh;
 }
 ul li a:hover{
     color: rgba(255, 255, 255, 0.527);
@@ -241,27 +241,70 @@ li label {
 }
 
 
-.a-texto p{
+.a-content p{
     margin: 3vw 2vw 2vw 2vw;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
+    padding-bottom: 0vw;
 }
 
+.ia-titulo{
+    background-color: #f0ed62;
+}
+
+.ia-texto {
+    background-color: #f0ed62;
+}
+
+ 
 .ia-titulo img{
     margin-right: 3vw;
+}
+
+
+.ia-titulo h2{
+    margin-left: 2vw;
+    align-self: flex-end;
+    color: #000000;
+}
+.ia-texto p{
+    color: #000000  ;
 }
 
 .vimms-titulo img{
     margin-left: 3vw;
 }
 
-.ia-titulo h2{
-    margin-left: 2vw;
-    align-self: flex-end;
+.vimms-titulo{
+    background-color: rgb(145, 41, 145);
 }
-
 .vimms-titulo h2{
     margin-right: 2vw;
 }
+
+.vimms-texto{
+    text-align: end;
+    background-color: rgb(145, 41, 145);
+}
+footer{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+}
+footer .row{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1vw;
+}
+footer h3{
+    width: 40vw;
+    font-size: 1.2vw;
+}
+footer h4{
+    width: 40vw;
+    text-align: end;
+}
+
 
 
 
