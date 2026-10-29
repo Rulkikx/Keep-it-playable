@@ -119,11 +119,11 @@ li label {
 
 .intro{
     align-items: center;
-    background-image: url(images/intro-bg.png);
+    background-image: url(/images/intro-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     align-items: start;
-    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(252, 255, 255);
     padding: 0;
     margin: 0;
 }
@@ -143,6 +143,7 @@ li label {
     text-align: justify;
     font-size: 1.7vw;
     margin: 8vh 10vw 10vh 8vw;
+    background-color: #000000;
 }
 
 .emulador{
@@ -150,7 +151,7 @@ li label {
     background-size: cover;
     padding: 5vw;
     width: 100%;
-    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(252, 255, 255);
 
 }
 
@@ -266,8 +267,12 @@ li label {
     align-self: flex-end;
     color: #000000;
 }
+.ia-titulo h2:hover{
+    color: #ffffff;
+}
+
 .ia-texto p{
-    color: #000000  ;
+    color: #000000;
 }
 
 .vimms-titulo img{
@@ -279,6 +284,10 @@ li label {
 }
 .vimms-titulo h2{
     margin-right: 2vw;
+}
+
+.vimms-titulo h2:hover{
+    color: #1f1e1e;
 }
 
 .vimms-texto{
@@ -304,6 +313,10 @@ footer h4{
     width: 40vw;
     text-align: end;
 }
+
+
+
+
 
 
 
